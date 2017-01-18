@@ -1,0 +1,10 @@
+[package]
+name = "Overwatch_Checklist"
+version = "1.0.0"
+authors = ["Hiruna Jayamanne"]
+
+[dependencies]
+conrod = "0.48.0"
+find_folder = "0.3.0"
+yaml-rust = "0.3.5"
+toml = "0.2.1"

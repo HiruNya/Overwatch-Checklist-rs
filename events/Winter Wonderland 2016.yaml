@@ -1,0 +1,504 @@
+---
+Emotes: 
+  - 
+    Name: HAT TRICK McCree
+    Obtained: 0
+    Rarity: 2
+  - 
+    Name: SNOWMAN Mei
+    Obtained: 1
+    Rarity: 2
+  - 
+    Name: MYSTERY GIFT Zarya
+    Obtained: 1
+    Rarity: 3
+Highlight Intros: 
+  - 
+    Name: SNOWFLAKES Symmetra
+    Obtained: 0
+    Rarity: 2
+  - 
+    Name: UNDER THE MISTLETOE Widowmaker
+    Obtained: 0
+    Rarity: 2
+Player Icons: 
+  - 
+    Name: "2017"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Bells
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Bubbly
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Candy Cane
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "Cheers!"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Dreidel
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Gingerbread
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Gingermari
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Holly
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Hot Cocoa
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Jingle
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Mochi
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Nutcracker
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Ornament
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Pachimerry
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Pachireindeer
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Peppermint
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Present
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Santaclad
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Snow Globe
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Snowman
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Stocking
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Tannenbaum
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: Winter Wonderland 2016
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Wreath
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: Yeti
+    Obtained: 0
+    Rarity: 0
+Skins: 
+  - 
+    Name: "MEI-RRY Mei"
+    Obtained: 1
+    Rarity: 3
+  - 
+    Name: SANTACLAD Torbjorn
+    Obtained: 1
+    Rarity: 3
+  - 
+    Name: JINGLE Tracer
+    Obtained: 1
+    Rarity: 3
+  - 
+    Name: YETI Winston
+    Obtained: 0
+    Rarity: 3
+  - 
+    Name: NUTCRACKER Zenyatta
+    Obtained: 1
+    Rarity: 3
+  - 
+    Name: ANDES Lucio
+    Obtained: 1
+    Rarity: 2
+  - 
+    Name: SCROOGE McCree
+    Obtained: 1
+    Rarity: 2
+  - 
+    Name: FROSTBITE Pharah
+    Obtained: 1
+    Rarity: 2
+  - 
+    Name: SHIVER Reaper
+    Obtained: 0
+    Rarity: 2
+  - 
+    Name: RUDOLPH Roadhog
+    Obtained: 1
+    Rarity: 2
+  - 
+    Name: PEPPERMINT Sombra
+    Obtained: 1
+    Rarity: 2
+  - 
+    Name: FROSTED Zarya
+    Obtained: 1
+    Rarity: 2
+Sprays: 
+  - 
+    Name: ORNAMENT Ana
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ORNAMENT Bastion
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ORNAMENT D.Va
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Genji
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Hanzo
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ORNAMENT Junkrat
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Lucio
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT McCree
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Mei
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Mercy
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Pharah
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ORNAMENT Reaper
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ORNAMENT Reinhardt
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Roadhog
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "ORNAMENT Soldier:76"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ORNAMENT Sombra
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Symmetra
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Torbjorn
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Tracer
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ORNAMENT Widowmaker
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Winston
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Zarya
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ORNAMENT Zenyatta
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: WARM Ana
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: FESTIVE Bastion
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: COOKIE D.Va
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: KADOMATSU Genji
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: KADOMATSU Hanzo
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: WINTER Junkrat
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: HOCKEY Lucio
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: UGLY SWEATER McCree
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SCULPTING Mei
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SNOW ANGEL Mercy
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: ICE FISHING Pharah
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: STOCKING Reaper
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: ICE FISHING Reinhardt
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: WINTER Roadhog
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "ARMY MAN Soldier:76"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: PUPPET Sombra
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SNOWFLAKE Symmetra
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: WORKSHOP Torbjorn
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SNOWBOARDING Tracer
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SKIING Widowmaker
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: PRESENTS Winston
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: MATRYOSHKA Zarya
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SNOWBALL FIGHT Zenyatta
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SNOWHOG
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SNOW REAPER
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: SNOW MEI
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: SNOWCREE
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: WINTER WONDERLAND
+    Obtained: 1
+    Rarity: 0
+Victory Poses: 
+  - 
+    Name: TOAST Ana
+    Obtained: 0
+    Rarity: 1
+  - 
+    Name: TOAST Pharah
+    Obtained: 1
+    Rarity: 1
+  - 
+    Name: TOAST Reinhardt
+    Obtained: 1
+    Rarity: 1
+  - 
+    Name: "TOAST Soldier:76"
+    Obtained: 1
+    Rarity: 1
+  - 
+    Name: TOAST Torbjorn
+    Obtained: 0
+    Rarity: 1
+  - 
+    Name: FESTIVE D.Va
+    Obtained: 1
+    Rarity: 1
+  - 
+    Name: MISTLETOE Mercy
+    Obtained: 0
+    Rarity: 1
+Voice Lines: 
+  - 
+    Name: "I'M WATCHING OUT FOR YOU - Ana"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "DWEE DOO HOO - Bastion"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "AW, YOU SHOULDN'T HAVE - D.Va"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "MERRY CHRISTMAS! - Genji"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "A GIFT FOR YOU - Hanzo"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "MERRY CHRISTMAS - Junkrat"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "HAPPY HOLIDAYS - Lucio"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "HAD TO BREAK THE ICE - McCree"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "I GOT YOU SOMETHING! - Mei"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "YOUR GUARDIAN ANGEL - Mercy"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "THE FORECAST - Pharah"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "HOLIDAY SPIRIT - Reaper"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "YOU'RE ON MY NAUGHTY LIST - Reinhardt"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "HO HO HO - Roadhog"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "STAY FROSTY - Soldier:76"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "I KNOW WHO'S BEEN NAUGHTY - Sombra"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "I MADE YOU SOMETHING - Symmetra"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "MADE TO ORDER - Torbjorn"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "IT'S IN THE BAG - Tracer"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "EXQUISITE - Widowmaker"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "I...GOT YOU SOMETHING - Winston"
+    Obtained: 0
+    Rarity: 0
+  - 
+    Name: "FOR THE MOTHERLAND - Zarya"
+    Obtained: 1
+    Rarity: 0
+  - 
+    Name: "NO SNOWFLAKE - Zenyatta"
+    Obtained: 0
+    Rarity: 0
