@@ -6,11 +6,11 @@ Emotes:
     Rarity: 2
   - 
     Name: SNOWMAN Mei
-    Obtained: 1
+    Obtained: 0
     Rarity: 2
   - 
     Name: MYSTERY GIFT Zarya
-    Obtained: 1
+    Obtained: 0
     Rarity: 3
 Highlight Intros: 
   - 
@@ -48,7 +48,7 @@ Player Icons:
     Rarity: 0
   - 
     Name: Gingerbread
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Gingermari
@@ -68,7 +68,7 @@ Player Icons:
     Rarity: 0
   - 
     Name: Mochi
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Nutcracker
@@ -76,31 +76,31 @@ Player Icons:
     Rarity: 0
   - 
     Name: Ornament
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Pachimerry
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Pachireindeer
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Peppermint
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Present
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Santaclad
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Snow Globe
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Snowman
@@ -116,11 +116,11 @@ Player Icons:
     Rarity: 0
   - 
     Name: Winter Wonderland 2016
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Wreath
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: Yeti
@@ -129,15 +129,15 @@ Player Icons:
 Skins: 
   - 
     Name: "MEI-RRY Mei"
-    Obtained: 1
+    Obtained: 0
     Rarity: 3
   - 
     Name: SANTACLAD Torbjorn
-    Obtained: 1
+    Obtained: 0
     Rarity: 3
   - 
     Name: JINGLE Tracer
-    Obtained: 1
+    Obtained: 0
     Rarity: 3
   - 
     Name: YETI Winston
@@ -145,19 +145,19 @@ Skins:
     Rarity: 3
   - 
     Name: NUTCRACKER Zenyatta
-    Obtained: 1
+    Obtained: 0
     Rarity: 3
   - 
     Name: ANDES Lucio
-    Obtained: 1
+    Obtained: 0
     Rarity: 2
   - 
     Name: SCROOGE McCree
-    Obtained: 1
+    Obtained: 0
     Rarity: 2
   - 
     Name: FROSTBITE Pharah
-    Obtained: 1
+    Obtained: 0
     Rarity: 2
   - 
     Name: SHIVER Reaper
@@ -165,24 +165,24 @@ Skins:
     Rarity: 2
   - 
     Name: RUDOLPH Roadhog
-    Obtained: 1
+    Obtained: 0
     Rarity: 2
   - 
     Name: PEPPERMINT Sombra
-    Obtained: 1
+    Obtained: 0
     Rarity: 2
   - 
     Name: FROSTED Zarya
-    Obtained: 1
+    Obtained: 0
     Rarity: 2
 Sprays: 
   - 
     Name: ORNAMENT Ana
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ORNAMENT Bastion
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ORNAMENT D.Va
@@ -194,7 +194,7 @@ Sprays:
     Rarity: 0
   - 
     Name: ORNAMENT Hanzo
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ORNAMENT Junkrat
@@ -218,11 +218,11 @@ Sprays:
     Rarity: 0
   - 
     Name: ORNAMENT Pharah
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ORNAMENT Reaper
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ORNAMENT Reinhardt
@@ -230,11 +230,11 @@ Sprays:
     Rarity: 0
   - 
     Name: ORNAMENT Roadhog
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "ORNAMENT Soldier:76"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ORNAMENT Sombra
@@ -250,7 +250,7 @@ Sprays:
     Rarity: 0
   - 
     Name: ORNAMENT Tracer
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ORNAMENT Widowmaker
@@ -306,11 +306,11 @@ Sprays:
     Rarity: 0
   - 
     Name: SNOW ANGEL Mercy
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: ICE FISHING Pharah
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: STOCKING Reaper
@@ -334,7 +334,7 @@ Sprays:
     Rarity: 0
   - 
     Name: SNOWFLAKE Symmetra
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: WORKSHOP Torbjorn
@@ -370,7 +370,7 @@ Sprays:
     Rarity: 0
   - 
     Name: SNOW MEI
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: SNOWCREE
@@ -378,7 +378,7 @@ Sprays:
     Rarity: 0
   - 
     Name: WINTER WONDERLAND
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
 Victory Poses: 
   - 
@@ -387,15 +387,15 @@ Victory Poses:
     Rarity: 1
   - 
     Name: TOAST Pharah
-    Obtained: 1
+    Obtained: 0
     Rarity: 1
   - 
     Name: TOAST Reinhardt
-    Obtained: 1
+    Obtained: 0
     Rarity: 1
   - 
     Name: "TOAST Soldier:76"
-    Obtained: 1
+    Obtained: 0
     Rarity: 1
   - 
     Name: TOAST Torbjorn
@@ -403,7 +403,7 @@ Victory Poses:
     Rarity: 1
   - 
     Name: FESTIVE D.Va
-    Obtained: 1
+    Obtained: 0
     Rarity: 1
   - 
     Name: MISTLETOE Mercy
@@ -412,7 +412,7 @@ Victory Poses:
 Voice Lines: 
   - 
     Name: "I'M WATCHING OUT FOR YOU - Ana"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "DWEE DOO HOO - Bastion"
@@ -428,7 +428,7 @@ Voice Lines:
     Rarity: 0
   - 
     Name: "A GIFT FOR YOU - Hanzo"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "MERRY CHRISTMAS - Junkrat"
@@ -436,11 +436,11 @@ Voice Lines:
     Rarity: 0
   - 
     Name: "HAPPY HOLIDAYS - Lucio"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "HAD TO BREAK THE ICE - McCree"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "I GOT YOU SOMETHING! - Mei"
@@ -452,7 +452,7 @@ Voice Lines:
     Rarity: 0
   - 
     Name: "THE FORECAST - Pharah"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "HOLIDAY SPIRIT - Reaper"
@@ -480,7 +480,7 @@ Voice Lines:
     Rarity: 0
   - 
     Name: "MADE TO ORDER - Torbjorn"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "IT'S IN THE BAG - Tracer"
@@ -496,7 +496,7 @@ Voice Lines:
     Rarity: 0
   - 
     Name: "FOR THE MOTHERLAND - Zarya"
-    Obtained: 1
+    Obtained: 0
     Rarity: 0
   - 
     Name: "NO SNOWFLAKE - Zenyatta"
