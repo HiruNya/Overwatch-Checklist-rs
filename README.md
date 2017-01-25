@@ -25,5 +25,4 @@ Open an issue and I'll check it out!
 ![capture1](https://cloud.githubusercontent.com/assets/20044495/22110068/4105a254-debf-11e6-8616-c89ed16782dd.PNG)
 ![capture2](https://cloud.githubusercontent.com/assets/20044495/22110065/40fbccc0-debf-11e6-8e8a-400edcff5194.PNG)
 ![capture3](https://cloud.githubusercontent.com/assets/20044495/22110066/40fd9528-debf-11e6-9ea8-0b2a998cfeeb.PNG)
-I didn't have another event file so I couldn't really show this feature properly but basically this is how you load different event files.
-![capture4](https://cloud.githubusercontent.com/assets/20044495/22110067/4101b2c0-debf-11e6-9006-c24962f54e57.PNG) 
+![capture4](https://cloud.githubusercontent.com/assets/20044495/22276388/28618b2a-e318-11e6-8998-202930661d6c.PNG)
