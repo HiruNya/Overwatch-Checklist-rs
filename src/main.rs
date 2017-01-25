@@ -23,6 +23,7 @@ widget_ids! {
     struct Ids {
         canvas,
         list,
+        list_canvas,
         tab_buttons,
         button_matrix,
         file_nav,
@@ -30,6 +31,7 @@ widget_ids! {
         error_box,
         error_text,
         error_button,
+        gold_left_text,
     }
 }
 
@@ -41,6 +43,7 @@ struct AppData {
     file_list: Vec<PathBuf>,
     data_changed: bool,
     errors: Vec<String>,
+    money_needed: String,
 }
 
 impl AppData {
@@ -122,6 +125,7 @@ impl AppData {
             event_file: event_file_path,
             data_changed: false,
             errors: Vec::new(),
+            money_needed: String::new(),
         }
     }
     fn refresh_data(&mut self) {
@@ -217,6 +221,20 @@ impl AppData {
     fn send_error(&mut self, text: String) {
         self.errors.insert(0, text)
     }
+    fn refresh_money_needed(&mut self) {
+        let mut money = 0;
+        for item in &self.data[self.current_tab.as_str()] {
+            if !item.obtained {
+                money += match item.rarity {
+                    1 => 225, //Rare
+                    2 => 750, //Epic
+                    3 => 3000, //Legendary
+                    _ => 15, //Normal (DEFAULT)
+                }
+            }
+        }
+        self.money_needed = format!("Gold Needed: {}", money);
+    }
 }
 
 fn set_ui(ref mut ui: conrod::UiCell, ids: &mut Ids, data: &mut AppData) {
@@ -246,6 +264,7 @@ fn set_ui(ref mut ui: conrod::UiCell, ids: &mut Ids, data: &mut AppData) {
                     ui
             ) {
                 data.current_tab = i.to_string();
+                data.refresh_money_needed();
                 if data.view_type != 0 {
                     data.view_type = 0;
                 }
@@ -294,51 +313,62 @@ fn set_ui(ref mut ui: conrod::UiCell, ids: &mut Ids, data: &mut AppData) {
 
         },
         _ => {
-            let mut list = data.data.get_mut(data.current_tab.as_str()).unwrap();
-            let (mut items, scrollbar) = List::new(list.len(), 30.0)
-                .w_h(ui.win_w, ((6.0 * ui.win_h) / 8.0))
-                .middle_of(ids.canvas)
-                .scrollbar_on_top()
-                .scrollbar_color(Colour::Rgba(255.0, 0.0, 0.0, 255.0))
-                .scrollbar_width(20.0)
-                .instantiate_all_items()
-                .set(ids.list, ui);
-            match scrollbar {
-                // Unwrap the scrollbar
-                Some(e) => e.set(ui),
-                None => {},
-            }
-            // Create an element for each item in the list
-            for ref mut item_in_list in list.iter_mut() {
-                let colour = match item_in_list.obtained {
-                    false => match item_in_list.rarity {
-                        1 => DARK_CYAN,
-                        2 => DARK_MAGENTA,
-                        3 => DARK_YELLOW,
-                        _ => DARK_GREY,
-                    },
-                    true => match item_in_list.rarity {
-                        1 => CYAN,
-                        2 => MAGENTA,
-                        3 => YELLOW,
-                        _ => WHITE,
-                    }
-                };
-                let item = Button::new()
-                    .color(colour)
-                    .label(item_in_list.name.as_str());
-                match items.next(ui) {
-                    Some(e) => for _ in e.set(item, ui) {
-                        item_in_list.obtained = match item_in_list.obtained {
-                            false => true,
-                            true => false,
-                        };
-                        if !data.data_changed {
-                            data.data_changed = true
-                        }
-                    },
+            let mut money_needed_changed = false;
+            {
+                Canvas::new()
+                    .w_h(ui.win_w, ((6.0 * ui.win_h) / 8.0))
+                    .middle_of(ids.canvas)
+                    .set(ids.list_canvas, ui);
+                let mut list = data.data.get_mut(data.current_tab.as_str()).unwrap();
+                let (mut items, scrollbar) = List::new(list.len(), 30.0)
+                    .wh_of(ids.list_canvas)
+                    .middle_of(ids.list_canvas)
+                    .scrollbar_on_top()
+                    .scrollbar_color(Colour::Rgba(255.0, 0.0, 0.0, 255.0))
+                    .scrollbar_width(20.0)
+                    .instantiate_all_items()
+                    .set(ids.list, ui);
+                match scrollbar {
+                    // Unwrap the scrollbar
+                    Some(e) => e.set(ui),
                     None => {},
-                };
+                }
+                // Create an element for each item in the list
+                for ref mut item_in_list in list.iter_mut() {
+                    let colour = match item_in_list.obtained {
+                        false => match item_in_list.rarity {
+                            1 => DARK_CYAN,
+                            2 => DARK_MAGENTA,
+                            3 => DARK_YELLOW,
+                            _ => DARK_GREY,
+                        },
+                        true => match item_in_list.rarity {
+                            1 => CYAN,
+                            2 => MAGENTA,
+                            3 => YELLOW,
+                            _ => WHITE,
+                        }
+                    };
+                    let item = Button::new()
+                        .color(colour)
+                        .label(item_in_list.name.as_str());
+                    match items.next(ui) {
+                        Some(e) => for _ in e.set(item, ui) {
+                            item_in_list.obtained = match item_in_list.obtained {
+                                false => true,
+                                true => false,
+                            };
+                            if !data.data_changed {
+                                data.data_changed = true
+                            }
+                            money_needed_changed = true;
+                        },
+                        None => {},
+                    };
+                }
+            }
+            if money_needed_changed {
+                data.refresh_money_needed();
             }
         },
     }
@@ -395,6 +425,14 @@ fn set_ui(ref mut ui: conrod::UiCell, ids: &mut Ids, data: &mut AppData) {
             data.reset_obtained_data();
         }
     }
+
+    // Show Gold Needed
+    {
+        Text::new(data.money_needed.as_str())
+            //.color(WHITE)
+            .top_right_with_margin_on(ids.list_canvas, 5.0)
+            .set(ids.gold_left_text, ui);
+    }
 }
 
 fn main() {
@@ -414,6 +452,7 @@ fn main() {
     let ids = &mut Ids::new(ui.widget_id_generator());
 
     let mut data = AppData::new();
+    data.refresh_money_needed();
 
     while let Some(event) = window.next_event(&mut events) {
         if let Some(e) = window::convert_event(event.clone(), &window) {
