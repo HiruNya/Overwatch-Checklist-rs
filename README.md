@@ -13,8 +13,11 @@ This is my first big project in rust and using conrod so if I'm doing something 
 Also there is sort of an issue if you don't have the events folder, the assets folder, or the config.toml file then it might crash. I'm not really sure how I would handle this as this would all happen before the GUI is made.
 
 # Events Available
+[Get Event Files](/events)
 - Winter Wonderland 2016
 - Year of the Rooster 2017 ~~is nearly there, waiting for overwatch.gamepedia.com to update with a full list (Waiting for the new sprays and player icons)~~ (Completed)
+
+Put the event files into the "/events" folder.
 
 Go to the /events folder in this project when a new event comes out. I'll try to release the event files quickly. If I don't do it quick enough or have stopped making them then you could make one yourself if you have Python 3 and the necessary modules by using the <a href="https://github.com/NightShadeNeko/Overwatch-Checklist/blob/master/Tools/Event_Editor.pyw">Event Editor</a>. [I've stopped development of this as I don't really see anything else it would need]
 
