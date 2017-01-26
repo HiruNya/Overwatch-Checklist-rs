@@ -14,8 +14,8 @@ Also there is sort of an issue if you don't have the events folder, the assets f
 
 # Events Available
 [Get Event Files](/events)
-- Winter Wonderland 2016
-- Year of the Rooster 2017 ~~is nearly there, waiting for overwatch.gamepedia.com to update with a full list (Waiting for the new sprays and player icons)~~ (Completed)
+- [Winter Wonderland 2016](/events/Winter Wonderland 2016.yaml)
+- [Year of the Rooster 2017](/events/Year of the Rooster 2017.yaml) ~~is nearly there, waiting for overwatch.gamepedia.com to update with a full list (Waiting for the new sprays and player icons)~~ (Completed)
 
 Put the event files into the "/events" folder.
 
