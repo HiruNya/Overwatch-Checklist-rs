@@ -1,4 +1,6 @@
 # Overwatch-Checklist-rs
+**[This program is no longer maintained however it still works. If you want me to upload an event file, that you have created using the tools in the python version, then just make a pull request or make an issue. If you have any suggestions I *might* look into it.]**
+
 An Overwatch Checklist built in Rust using Conrod.
 
 <a href="https://github.com/NightShadeNeko/Overwatch-Checklist-rs/releases">Download Release</a>
